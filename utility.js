@@ -15,6 +15,8 @@ function answerWhisper(job, msg) {
     job.log("Answered: " + msg);
 }
 
+// handle IRC
+
 queue.process("irc_whisper", function(job, done) {
     if (isBotAdmin(job.data.from)) {
         job.log("User is Admin. Processing Command.");

@@ -1,0 +1,12 @@
+--- Level Mapping ---
+
+Level       | Info
+------------|-------
+1           | Global Admin (Console Access)
+2           | Whisper Admin (Can send Commands to the bot via whisper)
+3           | Developer (no Start/Stop/Join features)
+10          | Channel Owner (Streamer). Can administrate in own channel and add+remove Channel Bot Mods
+11          | Channel Bot Mod (Same permissions as Channel Owner)
+100         | Channel Moderator (Add/Remove Commands, Timers, Banwords, Filter)
+500         | Subscriber
+999         | Everyone
